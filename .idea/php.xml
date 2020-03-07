@@ -138,5 +138,67 @@
       <path value="$PROJECT_DIR$/vendor/theofidry/alice-data-fixtures" />
     </include_path>
   </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="26f666f4-1f76-4fc2-99c5-bf3091ba73a9" name="PHP 7.3" home="C:\Program Files\PHP\php-cgi.exe" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
+  <component name="PhpInterpretersPhpInfoCache">
+    <phpInfoCache>
+      <interpreter name="PHP 7.3">
+        <phpinfo binary_type="PHP" php_cgi="C:\Program Files\PHP\php-cgi.exe" php_cli="C:\Program Files\PHP\php-cgi.exe" path_separator=";" version="7.3.2">
+          <additional_php_ini />
+          <configuration_file>C:\Program Files\PHP\php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".;C:\php\pear" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="bcmath" />
+            <extension name="calendar" />
+            <extension name="cgi-fcgi" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="intl" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mysqlnd" />
+            <extension name="openssl" />
+            <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="standard" />
+            <extension name="tokenizer" />
+            <extension name="wddx" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+    </phpInfoCache>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="PHPUNIT_PHAR" configuration_file_path="$PROJECT_DIR$/phpunit.xml.dist" custom_loader_path="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit" phpunit_phar_path="$PROJECT_DIR$/phpunit.phar" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
 </project>

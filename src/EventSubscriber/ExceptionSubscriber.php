@@ -2,6 +2,8 @@
 
 namespace App\EventSubscriber;
 
+use Swift_Mailer;
+use Swift_Message;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;
@@ -10,7 +12,7 @@ class ExceptionSubscriber implements EventSubscriberInterface
 {
 
     /**
-     * @var \Swift_Mailer
+     * @var Swift_Mailer
      */
     private $mailer;
     /**
@@ -22,7 +24,7 @@ class ExceptionSubscriber implements EventSubscriberInterface
      */
     private $to;
 
-    public function __construct(\Swift_Mailer $mailer, string $from, string $to)
+    public function __construct(Swift_Mailer $mailer, string $from, string $to)
     {
         $this->mailer = $mailer;
         $this->from = $from;
@@ -32,13 +34,13 @@ class ExceptionSubscriber implements EventSubscriberInterface
     public static function getSubscribedEvents()
     {
         return [
-            ExceptionEvent::class => 'onException',
+            //ExceptionEvent::class => 'onException',
         ];
     }
 
     public function onException(ExceptionEvent $event){
 
-        $message = (new \Swift_Message())
+        $message = (new Swift_Message())
             ->setFrom($this->from)
             ->setTo($this->to)
             ->setBody("{$event->getRequest()->getRequestUri()}

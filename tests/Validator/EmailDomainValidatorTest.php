@@ -6,7 +6,6 @@ namespace App\Tests\Validator;
 use App\Repository\ConfigRepository;
 use App\Validator\EmailDomain;
 use App\Validator\EmailDomainValidator;
-use PHPUnit\Framework\TestCase;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 use Symfony\Component\Validator\Violation\ConstraintViolationBuilderInterface;

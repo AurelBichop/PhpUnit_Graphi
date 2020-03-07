@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2edc6b59-94bf-4d7a-8adf-9ef380308e8e" name="Default Changelist" comment="" />
+    <list default="true" id="2edc6b59-94bf-4d7a-8adf-9ef380308e8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security/AppAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Controller/PageControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Controller/SecurityControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Controller/users.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/NeedLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EventSubscriber/ExceptionSubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventSubscriber/ExceptionSubscriber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/EventSubscriber/ExceptionSubcriberTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/EventSubscriber/ExceptionSubscriberTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Validator/EmailDomainValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Validator/EmailDomainValidatorTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +32,10 @@
       <executable />
     </execution>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
@@ -152,36 +174,88 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1YFFPYnmssEWQT9QUIqlgba6MVW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.phar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aurel\Desktop\GrapPHPunit\tests\Controller" />
       <recent name="C:\Users\aurel\Desktop\GrapPHPunit\tests\Repository" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.AppTest.testTestsAreWorking">
-    <configuration name="AppTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\AppTest" file="$PROJECT_DIR$/tests/AppTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.PageControllerTest.testAuthPageIsRestricted">
+    <configuration name="EmailDomainValidatorTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.3" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="App\Tests\Validator\EmailDomainValidatorTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" directory="$PROJECT_DIR$/bin/.phpunit" file="$PROJECT_DIR$/tests/Validator/EmailDomainValidatorTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="AppTest.testTestsAreWorking" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\AppTest" file="$PROJECT_DIR$/tests/AppTest.php" method="testTestsAreWorking" scope="Method" />
+    <configuration name="ExceptionSubscriberTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\EventSubscriber\ExceptionSubscriberTest" file="$PROJECT_DIR$/tests/EventSubscriber/ExceptionSubscriberTest.php" scope="Class" />
       <method v="2" />
     </configuration>
+    <configuration name="PageControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Controller\PageControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Controller/PageControllerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PageControllerTest.testAuthPageIsRestricted" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.3" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="App\Tests\Controller\PageControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" directory="$PROJECT_DIR$/bin/.phpunit" file="$PROJECT_DIR$/tests/Controller/PageControllerTest.php" method="testAuthPageIsRestricted" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PageControllerTest.testHelloPage" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Controller\PageControllerTest" file="$PROJECT_DIR$/tests/Controller/PageControllerTest.php" method="testHelloPage" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" nameIsGenerated="true">
+      <TestRunner />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.3" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner directory="$PROJECT_DIR$/bin/.phpunit" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.Unnamed" />
+      <item itemvalue="PHPUnit.ExceptionSubscriberTest" />
+      <item itemvalue="PHPUnit.PageControllerTest" />
+      <item itemvalue="PHPUnit.PageControllerTest.testHelloPage" />
+      <item itemvalue="PHPUnit.EmailDomainValidatorTest" />
+      <item itemvalue="PHPUnit.PageControllerTest.testAuthPageIsRestricted" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.AppTest.testTestsAreWorking" />
-        <item itemvalue="PHPUnit.AppTest" />
+        <item itemvalue="PHPUnit.PageControllerTest.testAuthPageIsRestricted" />
+        <item itemvalue="PHPUnit.PageControllerTest" />
+        <item itemvalue="PHPUnit.EmailDomainValidatorTest" />
+        <item itemvalue="PHPUnit.PageControllerTest.testHelloPage" />
+        <item itemvalue="PHPUnit.ExceptionSubscriberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,12 +272,19 @@
       <workItem from="1582530412350" duration="17392000" />
       <workItem from="1582960344665" duration="97000" />
       <workItem from="1582960452943" duration="202000" />
-      <workItem from="1582960662396" duration="6669000" />
+      <workItem from="1582960662396" duration="8844000" />
+      <workItem from="1583073466669" duration="14000" />
+      <workItem from="1583073519599" duration="6302000" />
+      <workItem from="1583568789067" duration="6203000" />
+      <workItem from="1583595867001" duration="5766000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="636" y="143" width="661" height="753" key="#AppTest" timestamp="1582530652598">
@@ -214,33 +295,100 @@
     </state>
     <state x="636" y="127" width="661" height="786" key="#AppTest.testTestsAreWorking/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582530657853" />
     <state x="636" y="143" width="661" height="753" key="#AppTest/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582530652598" />
+    <state x="2467" y="174" key="#CLI_Interpreters" timestamp="1583090660789">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2467" y="174" key="#CLI_Interpreters/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583090660789" />
     <state x="552" y="180" key="#Composer" timestamp="1582530460467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="180" key="#Composer/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582530460467" />
+    <state x="2556" y="142" width="661" height="756" key="#ExceptionSubscriberTest" timestamp="1583073725632">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2556" y="142" width="661" height="756" key="#ExceptionSubscriberTest/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583073725632" />
+    <state x="2584" y="111" key="#PHP" timestamp="1583090427198">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2584" y="111" key="#PHP/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583090427198" />
+    <state x="2556" y="221" width="661" height="598" key="#PageControllerTest" timestamp="1583090429134">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2556" y="125" width="661" height="789" key="#PageControllerTest.testHelloPage" timestamp="1583083212863">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2556" y="125" width="661" height="789" key="#PageControllerTest.testHelloPage/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583083212863" />
+    <state x="2556" y="221" width="661" height="598" key="#PageControllerTest/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583090429134" />
+    <state x="2460" y="175" key="#Test_Frameworks" timestamp="1583083369796">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2460" y="175" key="#Test_Frameworks/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583083369796" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583083459848">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583083459848" />
     <state x="2685" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1582963352940">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582963352940" />
-    <state x="2610" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582550960564">
+    <state x="2560" y="258" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583073475328">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2610" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582550960564" />
-    <state x="2660" y="276" key="FileChooserDialogImpl" timestamp="1582960520701">
+    <state x="2560" y="258" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583073475328" />
+    <state x="2610" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583603101985">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582960520701" />
-    <state x="2649" y="337" key="NewPhpClassDialog" timestamp="1582549733115">
+    <state x="2610" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583603101985" />
+    <state x="2660" y="276" key="FileChooserDialogImpl" timestamp="1583090658238">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2649" y="337" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582549733115" />
+    <state x="2660" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583090658238" />
+    <state width="1879" height="281" key="GridCell.Tab.0.bottom" timestamp="1583576920873">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583576920873" />
+    <state width="1879" height="281" key="GridCell.Tab.0.center" timestamp="1583576920873">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583576920873" />
+    <state width="1879" height="281" key="GridCell.Tab.0.left" timestamp="1583576920873">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583576920873" />
+    <state width="1879" height="281" key="GridCell.Tab.0.right" timestamp="1583576920873">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583576920873" />
+    <state width="1879" height="348" key="GridCell.Tab.1.bottom" timestamp="1583091633218">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583091633218" />
+    <state width="1879" height="348" key="GridCell.Tab.1.center" timestamp="1583091633218">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583091633218" />
+    <state width="1879" height="348" key="GridCell.Tab.1.left" timestamp="1583091633218">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583091633218" />
+    <state width="1879" height="348" key="GridCell.Tab.1.right" timestamp="1583091633218">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583091633218" />
+    <state x="2649" y="337" key="NewPhpClassDialog" timestamp="1583602982836">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2649" y="337" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583602982836" />
     <state x="777" y="445" key="NewPhpFileDialog" timestamp="1582531090644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="445" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582531090644" />
-    <state x="2381" y="164" key="SettingsEditor" timestamp="1582960655148">
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1583091624790">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582960655148" />
+    <state x="2381" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583091624790" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GrapPHPunit@PageControllerTest.xml" NAME="PageControllerTest Coverage Results" MODIFIED="1583083388634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
