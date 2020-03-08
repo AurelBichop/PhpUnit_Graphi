@@ -14,7 +14,7 @@ trait NeedLogin
     public function login(KernelBrowser $client, User $user){
 
         $session = $client->getContainer()->get('session');
-        $token = new UsernamePasswordToken('$user',null,'main', $user->getRoles());
+        $token = new UsernamePasswordToken($user,null,'main', $user->getRoles());
         $session->set('_security_main',serialize($token));
         $session->save();
 
